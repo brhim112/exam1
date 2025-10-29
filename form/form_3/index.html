@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="4px" border-color="red">
+      <form action="">
+        <thead>
+          <th><label for="Information">Information</label></th>
+          <th><label for="Input Field">Input Field</label></th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><label for="Name:">Name:</label></td>
+            <td><input type="text"  required/></td>
+          </tr>
+          <tr>
+            <td><label for="E-mail:">E-mail:</label></td>
+            <td><input type="text" autofocus /></td>
+          </tr>
+          <tr>
+            <td rowspan="1"><label for="Department:">Department: </label></td>
+            <br /><br />
+            <td>
+              <input
+                type="radio"
+                name="Department"
+                id="programming"
+                value="programming"
+              />
+              <label for="programming">programming</label>
+              <br />
+              <input
+                type="radio"
+                name="Department"
+                id="Networking"
+                value="Networking"
+              />
+              <label for="Networking">Networking</label>
+            </td>
+          </tr>
+          <br />
+          <tr>
+            <td><label for="Gender:">Gender:</label></td>
+            <td>
+              <select name="" id="">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Your Notes">Your Notes </label></td>
+            <td><textarea name="" id="" cols="20" rows="4"></textarea></td>
+          </tr>
+          <tr>
+            <td><button>rest values</button></td>
+            <td><button>send value</button></td>
+          </tr>
+        </tbody>
+      </form>
+    </table>
+  </body>
+</html>
